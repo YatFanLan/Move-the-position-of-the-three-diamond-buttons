@@ -1,0 +1,9 @@
+/*挪动三大金刚按位置*/
+.vue-component {
+  position: relative;
+  z-index: 1;}
+/*三大金刚按钮挪动之后导致下方的按钮挤压故以此方式修改*/
+.func-menu__item_wrap {
+  position: relative; 
+  top: -30px; /* 向上移动30像素 */
+}
